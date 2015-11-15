@@ -1,0 +1,7 @@
+'use strict';
+let callbacks = [];
+for (let i = 0; i < 3; i++) {
+  setTimeout(function () {
+    console.log(i);
+  }, 1000 * i);
+}

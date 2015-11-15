@@ -1,0 +1,15 @@
+{
+  "name": "es6-examples",
+  "version": "1.0.0",
+  "description": "Some es6 examples for it meetu",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "vaukalak",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-preset-es2015": "^6.1.18",
+    "gulp": "^3.9.0",
+    "gulp-babel": "^6.1.0"
+  }
+}
