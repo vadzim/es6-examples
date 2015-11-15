@@ -1,9 +1,7 @@
 'use strict';
-for (let i = 0; i < 3; i++) {
-  let x = i * i;
-  console.log(x);
+let test = true;
+let x = 5;
+if (test) {
+  let x = 10;
 }
-for (let i = 0; i < 3; i++) {
-  let x = i * 2;
-  console.log(x);
-}
+console.log(x);
