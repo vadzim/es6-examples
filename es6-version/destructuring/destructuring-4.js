@@ -1,6 +1,6 @@
 'use strict';
 function desctructAndLog(array) {
-  var [ a = 1, b = 2, c] = array;
+  let [ a = 1, b = 2, c] = array;
   console.log(a);
   console.log(b);
   console.log(c);

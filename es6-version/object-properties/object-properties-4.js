@@ -11,6 +11,6 @@ function Foo() {
   };
   obj.logPow(3);
   obj.logPowArrow(3);
-};
+}
 Foo.prototype.log = a => console.log(`external ${a}`);
 new Foo();
