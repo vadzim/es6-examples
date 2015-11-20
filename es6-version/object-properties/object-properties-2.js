@@ -1,9 +1,9 @@
 'use strict';
 let a = 'foo';
-let b = 32;
+let b = 'bar';
 let obj = {
   [a]: 'fooValue',
-  [`key${b}`]: '32Value'
+  [b]: 'barValue'
 };
 
 console.log(obj);
