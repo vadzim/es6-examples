@@ -1,32 +1,15 @@
 'use strict';
-function getDisplayObject() {
-  return {
+let object = {
     x: 10,
     y: 12,
-    size: {
-      width: 100,
-      height: 50
-    },
-    filters : [
-        'blur',
-        'glow'
-    ]
-  };
-}
+    width: 100,
+    height: 50
+};
 
-let {x, y, size : {width}} = getDisplayObject();
+let {x, y} = object;
 console.log(x);
 console.log(y);
-console.log(width);
 
-console.log('');
-
-let {size : {width : w, height : h}} = getDisplayObject();
+let {width : w, height : h} = object;
 console.log(w);
 console.log(h);
-
-console.log('');
-
-let {filters : [firstFilter, secondFilter]} = getDisplayObject();
-console.log(firstFilter);
-console.log(secondFilter);

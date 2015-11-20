@@ -1,8 +1,8 @@
 //NOTE: this example doesn't run under node.js :(
 'use strict';
 function test() {
-    let call = (...args) => {
-        console.log(args);
+    let call = (...rest) => {
+        console.log(rest);
         console.log(arguments);
     };
     call(20, 15);

@@ -8,6 +8,7 @@ function spread(name, val) {
   console.log(name, val);
 }
 spread(...['spread', 22]);
+//spread.apply(null, ['spread', 22]);
 
 function test({ name, val }) {
   console.log(name, val);

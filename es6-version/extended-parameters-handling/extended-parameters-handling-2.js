@@ -1,10 +1,10 @@
 //NOTE: this example doesn't run under node.js :(
 'use strict';
-function test(...args) {
-  console.log('>> args');
-  console.log(args);
-  console.log(args.length);
-  console.log(Array.isArray(args));
+function test(...rest) {
+  console.log('>> rest');
+  console.log(rest);
+  console.log(rest.length);
+  console.log(Array.isArray(rest));
 
   console.log('>> arguments');
   console.log(arguments);

@@ -1,5 +1,4 @@
 'use strict';
-let machineOperation = 'mul 3 2';
-let [operation, ...params] = machineOperation.split(' ');
+let [operation, ...params] = 'mul 3 2'.split(' ');
 console.log(operation);
 console.log(params);
