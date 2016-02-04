@@ -1,4 +1,4 @@
-function a( s ) {
+function* a( s ) {
 	yield 3
 	if ( s > 20 )
 		yield s + s
